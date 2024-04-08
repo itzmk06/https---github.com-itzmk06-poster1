@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+p{
+    top: 20px;
+    position: relative;
+    width: fit-content;
+    background-color: greenyellow;
+}
+p::before{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 3px;
+    top:20px;
+    background-color: blue;
+}
+p::after{
+    position: absolute;
+    content: " ";
+    left: 0px;
+    margin-bottom: 40px;
+    top: -5px;
+    width: 100%;
+    height: 3px;
+    background-color: violet;
+}
+
+h1{
+    bottom: 90%;
+    font-family:"Dancing Script","Cursive";
+    font-size: 40px;
+}
+h1::selection{
+    color:#39ff14 ;
+}
+h1::first-letter{
+    font-size: 80px;
+}
+
+
+
+
+
+
+
+
+

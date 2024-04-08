@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+    font-family: "Righteous", sans-serif;;
+}
+#navBar{
+    display: grid;
+    grid-template-columns: 50% 14% 14% 14% 10%;
+    align-content: center;
+    justify-content: center;
+    padding: 2%;
+}
+#navBar h1{
+    margin-left: 50px;
+    align-self: center;
+    align-self: self-start;
+    top: 10%;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: "Handlee", cursive;
+}
+#navBar h4{
+    font-size: 20px;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+}
